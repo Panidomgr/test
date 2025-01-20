@@ -1,4 +1,3 @@
 function pressed() {
-    var butt = document.getElementById("button");
-    butt.style.backgroundColor = "red";
+    event.target.style.backgroundColor = "red";
 }
